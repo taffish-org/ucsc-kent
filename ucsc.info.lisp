@@ -1,0 +1,7 @@
+(:name           "ucsc-kent")
+(:repo           "taffish-org/ucsc-kent")
+(:author         "KaiyuanHan")
+(:version        "486")
+(:intro          "UCSC Kent tools: command-line utilities for fast genome data processing (BED, WIG, BigWig, BigBed, 2bit)")
+(:dependencies)
+(:functions      "[UCSC Kent Tools](Bed, Wig, BigWig, BigBed, 2bit)")

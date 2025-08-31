@@ -1,0 +1,9 @@
++TOOL:ucsc-kent
+ARGS
+    <else>
+        ls /kent-core-486/bin/aarch64/ ; ls /kent-core-486/bin/x86_64/
+    <main>
+        ::*APP-ARGS*::
+RUN
+    <container:taf-ucsc-kent-v486:ghcr.io/taffish-org/ucsc-kent:486>
+        ::*MAIN*::
